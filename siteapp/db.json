@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Estruturação de banner",
-      "budget": "500",
+      "name": "Estruturação Banner",
+      "budget": "505",
       "category": {
         "id": "4",
         "name": "Planejamento"
@@ -13,7 +13,7 @@
     },
     {
       "name": "Landing Page",
-      "budget": "250",
+      "budget": "350",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -24,14 +24,25 @@
     },
     {
       "name": "Banner",
-      "budget": "1000",
+      "budget": "500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Planta Casa",
+      "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "costs": 0,
       "services": [],
-      "id": 5
+      "id": 4
     }
   ],
   "categories": [
