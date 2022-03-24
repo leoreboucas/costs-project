@@ -68,9 +68,9 @@ function EditProject(){
 
         lastService.id = uuidv4()
 
-        const lastServiceCost = lastService.cost
+        const lastServiceCost = lastService.costs
 
-        const newCost = parseFloat(project.cost) + parseFloat(lastServiceCost)
+        const newCost = parseFloat(project.costs) + parseFloat(lastServiceCost)
 
         // maximus value validation
         if(newCost > parseFloat(project.budget)){
@@ -139,6 +139,9 @@ function EditProject(){
                         <h2>Serviços</h2>
                         <Container customClass='start'>
                                 <p>Itens de serviços</p>
+                                <div>
+                                    <p>{project.services.name}</p>
+                                </div>
                         </Container>
                     </Container>
                 </div>

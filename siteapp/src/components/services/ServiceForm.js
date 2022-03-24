@@ -13,6 +13,7 @@ function ServiceForm({ handleSubmit, btnText, projectData }){
         e.preventDefault();
         projectData.services.push(service)
         handleSubmit(projectData)
+        console.log(projectData)
     }
 
     function handleChange(e){
@@ -31,7 +32,7 @@ function ServiceForm({ handleSubmit, btnText, projectData }){
             <Input 
             type='number'
             text='Custo do serviço'
-            name='cost'
+            name='costs'
             placeholder='Insira o valor total'
             handleOnChange={handleChange}
             />
