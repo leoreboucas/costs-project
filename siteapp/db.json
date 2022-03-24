@@ -8,8 +8,16 @@
         "name": "Planejamento"
       },
       "costs": 0,
-      "services": [],
-      "id": 1
+      "services": [
+        {
+          "name": "Design do Tema",
+          "costs": "30",
+          "description": "Pagamento do designer",
+          "id": "f414f3da-2a50-42d6-8377-882691a1cdb3"
+        }
+      ],
+      "id": 1,
+      "cost": 30
     },
     {
       "name": "Landing Page",
@@ -18,9 +26,17 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "costs": 0,
-      "services": [],
-      "id": 2
+      "costs": 30,
+      "services": [
+        {
+          "name": "Design da página",
+          "costs": "30",
+          "description": "Pagamento do designer",
+          "id": "91a7b45f-0d2a-4cb2-b664-525906b21960"
+        }
+      ],
+      "id": 2,
+      "cost": 20
     },
     {
       "name": "Banner",

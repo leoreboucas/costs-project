@@ -13,7 +13,6 @@ function ServiceForm({ handleSubmit, btnText, projectData }){
         e.preventDefault();
         projectData.services.push(service)
         handleSubmit(projectData)
-        console.log(projectData)
     }
 
     function handleChange(e){
