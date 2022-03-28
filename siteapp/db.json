@@ -16,6 +16,10 @@
     {
       "id": 4,
       "name": "Planejamento"
+    },
+    {
+      "id": 5,
+      "name": "Gastos Mensais"
     }
   ]
 }
