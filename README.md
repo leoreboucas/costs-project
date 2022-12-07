@@ -30,9 +30,8 @@ A obtençao dos dados vem do banco de dados do json-server
 Mencione as ferramentas que você usou para criar seu projeto
 
 * [ReactJS](https://reactjs.org/) - A biblioteca usada usado
-* [Mongod](https://www.mongodb.com/docs/) -  Banco de dados
-* [Bootstrap](https://getbootstrap.com/) - Framework web para estilização
-* [Axios](https://axios-http.com/ptbr/docs/intro) - Cliente-HTTP
+* [JSON-server](https://www.npmjs.com/package/json-server) -  Banco de dados
+* [React-Icons](https://react-icons.github.io/react-icons) - Ícones
 
 ## ✒️ Autores
 
